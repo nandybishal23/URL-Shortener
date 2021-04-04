@@ -38,7 +38,7 @@ def  short_url():
         str_url.set("Enter url please !!")    
 
 
-btn=Button(text="Short URL",padx=8,pady=10,bg="#2ecc71",fg="#fff",font=("Helvetica","16"),activebackground="coral",command=short_url)
+btn=Button(text="Short the URL",padx=8,pady=10,bg="#2ecc71",fg="#fff",font=("Helvetica","16"),activebackground="coral",command=short_url)
 btn.grid(row=2,column=2,pady=6)
 
 Canvas.mainloop()
